@@ -5,25 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JPDev Portfólio Website</title>
     <link rel="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
-    <link rel ="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
-    integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgvk" crossorigin="anonymous">
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' 
+    integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
     <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
         <div class="logo">
-            <img src="img/jp_logo.jpg" alt="jp_logo">
+            <h2 class="title">&lt;JP&gt;</h2>
         </div>
         <button class="nav-toggle" aria-label="toggle navigation">
             <span class="hamburger"></span>
         </button>
         <nav class="nav">
-            <ul class="nav_list">
+            <ul class="nav__list">
                 <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
-                <li class="nav__item"><a href="#services" class="nav__link">My services</a></li>
-                <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
-                <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">Serviços</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">Sobre mim</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">Meu trabalho</a></li>
             </ul>
         </nav>
     </header>
@@ -34,7 +34,7 @@
             Olá, sou o <strong>João Pedro</strong>
         </h1>
         <p class="section__subtitle section__subtitle--intro"> Web developer</p>
-        <img src="img/jp_logo.jpg" alt="a picture of João Pedro">
+        <img src="img/jp_logo.jpg" alt="a picture of João Pedro" class="intro__img">
     </section>
 
     <!-- Serviços -->
@@ -42,50 +42,84 @@
         <h2 class="section__title section_title--services">Oque eu faço</h2>
         <div class="services">
             <div class="service">
-                <h3></h3>
-                <p></p>
+                <h3>Example 1</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
             </div>
             <div class="service">
-                <h3></h3>
-                <p></p>
+                <h3>Example 2</h3>
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. </p>
             </div>
             <div class="service">
-                <h3></h3>
-                <p></p>
+                <h3>Example 3</h3>
+                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. On the other hand. Lorem Ipsum is not simply random text as opposed to using.</p>
             </div>
         </div>
-        <a href="#work" class="btn">My Work</a>
+        <a href="#work" class="btn">Meu Trabalho</a>
     </section>
 
     <!-- Sobre mim -->
     <section class="about-me" id="about">
         <h2 class="section__title section__title--about">Quem sou eu</h2>
-        <p class="section__subtitle section__subtitle--about"></p>
+        <p class="section__subtitle section__subtitle--about">Informações curtas sobre mim</p>
 
         <div class="about-me__body">
-            <p></p>
-            <p></p>
-            <p></p>
+            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "</p>
+            <p>"But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness."</p>
+            <p>"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident."</p>
         </div>
 
-        <img src="img/jp_logo.jpg" alt="João Pedro">
+        <img src="img/jp_logo.jpg" alt="João Pedro" class="about-me__img">
     </section>
 
     <!-- Meu trabalho -->
     <section class="my-work" id="work">
-        <a href="#" class="portfolio__item">
-            <img src="" alt="" class="portfolio__img">
-        </a>
+        <h2 class="section__title section__title--work">Meu Trabalho</h2>
+        <p class="section__subtitle section__subtitle--work">Informações adicionais sobre meu trabalho</p>
+        <div class="portfolio">
+            <a href="#" class="portfolio__item">
+                <img src="img/example1.jpg" alt="" class="portfolio__img">
+            </a>
+
+            <a href="#" class="portfolio__item">
+                <img src="img/example2.jpg" alt="" class="portfolio__img">
+            </a>
+
+            <a href="#" class="portfolio__item">
+                <img src="img/example3.jpg" alt="" class="portfolio__img">
+            </a>
+
+            <a href="#" class="portfolio__item">
+                <img src="img/example4.jpg" alt="" class="portfolio__img">
+            </a>
+
+            <a href="#" class="portfolio__item">
+                <img src="img/example5.jpg" alt="" class="portfolio__img">
+            </a>
+
+            <a href="#" class="portfolio__item">
+                <img src="img/example6.jpg" alt="" class="portfolio__img">
+            </a>
+        </div>
     </section>
 
     <!-- Rodapé -->
-    <footer>
+    <footer class="footer">
         <a href="mailto:jpedrolp10@hotmail.com" class="footer__link">jpedrolp10@hotmail.com</a>
         <ul class="social-list">
-            <li class="social_list__item"><a class="social_list__link" href="">GitHub</a></li>
-            <li class="social_list__item"><a class="social_list__link" href=""></a>LinkedIn</li>
-            <li class="social_list__item"><a class="social_list__link" href=""></a>Twitter</li>
+
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com/joaomirandalp" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://br.linkedin.com/in/jo%C3%A3o-pedro-souza-miranda-6b5295b9?trk=people-guest_people_search-card" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </li>
         </ul>
     </footer>
+    <script src="js/index.js"></script>
 </body>
 </html>
