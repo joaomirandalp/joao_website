@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="pt">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio do João</title>
     <link rel="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
-    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' 
-    integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css'
+        integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.4.0/css/all.css">
     <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <header>
         <div class="logo">
@@ -39,22 +42,72 @@
 
     <!-- Serviços -->
     <section class="my-services" id="services">
-        <h2 class="section__title section_title--services">Oque eu faço</h2>
-        <div class="services">
-            <div class="service">
-                <h3>Desenvolvedor</h3>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
-            </div>
-            <div class="service">
-                <h3>Analista</h3>
-                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. </p>
-            </div>
-            <div class="service">
-                <h3>BPM</h3>
-                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. On the other hand. Lorem Ipsum is not simply random text as opposed to using.</p>
-            </div>
+        <h2 class="section__title section_title--services">Skills</h2>
+        <div class="badges">
+            <article class="badge orange tooltip">
+                <h2 class="services-badge-tittle">HTML</h1>
+                    <div class="rounded">
+                        <i class="fab fa-html5"></i>
+                        <span class="tooltiptext tooltip-bottom">2 anos ~ 3 anos</span>
+                    </div>
+            </article>
+            <article class="badge blue tooltip">
+                <h2 class="services-badge-tittle">CSS</h1>
+                    <div class="rounded">
+                        <i class="fab fa-css3-alt"></i>
+                        <span class="tooltiptext tooltip-bottom">2 anos ~ 3 anos</span>
+                    </div>
+            </article>
+            <article class="badge purple tooltip">
+                <h2 class="services-badge-tittle">PHP</h1>
+                    <div class="rounded">
+                        <i class="fab fa-php"></i>
+                        <span class="tooltiptext tooltip-bottom">1 anos ~ 2 anos</span>
+                    </div>
+            </article>
+            <article class="badge gold tooltip">
+                <h2 class="services-badge-tittle">JS</h1>
+                    <div class="rounded">
+                        <i class="fab fa-js-square"></i>
+                        <span class="tooltiptext tooltip-bottom">1 anos ~ 2 anos</span>
+                    </div>
+            </article>
+            <article class="badge gainsboro tooltip">
+                <h2 class="services-badge-tittle">Java</h1>
+                    <div class="rounded">
+                        <i class="fab fa-java"></i>
+                        <span class="tooltiptext tooltip-bottom">1 anos ~ 2 anos</span>
+                    </div>
+            </article>
+            <article class="badge gray tooltip">
+                <h2 class="services-badge-tittle">SQL</h1>
+                    <div class="rounded">
+                        <i class="fa-sharp fa-solid fa-database"></i>
+                        <span class="tooltiptext tooltip-bottom">2 anos ~ 3 anos</span>
+                    </div>
+            </article>
+            <article class="badge steel tooltip">
+                <h2 class="services-badge-tittle">SCRUM</h1>
+                    <div class="rounded">
+                        <i class="fa-solid fa-list-check"></i>
+                        <span class="tooltiptext tooltip-bottom">1 anos ~ 2 anos</span>
+                    </div>
+            </article>
+            <article class="badge crimson tooltip">
+                <h2 class="services-badge-tittle">Kanban</h1>
+                    <div class="rounded">
+                        <i class="fa-regular fa-clipboard"></i>
+                        <span class="tooltiptext tooltip-bottom">1 anos ~ 2 anos</span>
+                    </div>
+            </article>
+            <article class="badge red tooltip">
+                <h2 class="services-badge-tittle">BPM</h1>
+                    <div class="rounded">
+                        <i class="fa-solid fa-chalkboard-user"></i>
+                        <span class="tooltiptext tooltip-bottom">2 anos ~ 3 anos</span>
+                    </div>
+            </article>
         </div>
-        <a href="#work" class="btn">Meu Trabalho</a>
     </section>
 
     <!-- Sobre mim -->
@@ -63,9 +116,18 @@
         <p class="section__subtitle section__subtitle--about">Informações curtas sobre mim</p>
 
         <div class="about-me__body">
-            <p>Sou um Engenheiro de Software, graduado em sistemas da informação e apaixonado por tecnologia. Tendo Experiência em desenvolvimento de sistemas, com especialidade nas linguagens JAVA, PHP e Javascript, integrações REST e SOAP com experiencia em documentação utilizando Swagger, tenho conhecimento em tecnologias como Spring Framework, Hibernate e Laravel. Possuo habilidades em design de software, arquitetura de sistemas (MVC) e resolução de problemas complexos.</p>
-            <p>Possuo experiência em Business Process Management (BPM), tendo trabalhado em projetos em diferentes empresas. Tenho conhecimentos sólidos na ferramenta BPM Lecom, bem como em técnicas de modelagem de processos de negócio, como BPMN (Business Process Model and Notation).</p>
-            <p>Além disso, possuo conhecimento em práticas ágeis, como Scrum e Kanban, sou capaz de trabalhar de forma colaborativa em equipes multifuncionais, comunicando-me efetivamente com desenvolvedores, designers, gerentes de projeto e outras partes interessadas. Estou sempre buscando aprender novas tecnologias e aprimorar minhas habilidades para oferecer as melhores soluções possíveis.</p>
+            <p>Sou um Engenheiro de Software, graduado em sistemas da informação e apaixonado por tecnologia. Tendo
+                Experiência em desenvolvimento de sistemas, com especialidade nas linguagens JAVA, PHP e Javascript,
+                integrações REST e SOAP com experiencia em documentação utilizando Swagger, tenho conhecimento em
+                tecnologias como Spring Framework, Hibernate e Laravel. Possuo habilidades em design de software,
+                arquitetura de sistemas (MVC) e resolução de problemas complexos.</p>
+            <p>Possuo experiência em Business Process Management (BPM), tendo trabalhado em projetos em diferentes
+                empresas. Tenho conhecimentos sólidos na ferramenta BPM Lecom, bem como em técnicas de modelagem de
+                processos de negócio, como BPMN (Business Process Model and Notation).</p>
+            <p>Além disso, possuo conhecimento em práticas ágeis, como Scrum e Kanban, sou capaz de trabalhar de forma
+                colaborativa em equipes multifuncionais, comunicando-me efetivamente com desenvolvedores, designers,
+                gerentes de projeto e outras partes interessadas. Estou sempre buscando aprender novas tecnologias e
+                aprimorar minhas habilidades para oferecer as melhores soluções possíveis.</p>
         </div>
 
         <img src="img/jp_logo.jpg" alt="João Pedro" class="about-me__img">
@@ -73,31 +135,58 @@
 
     <!-- Meu trabalho -->
     <section class="my-work" id="work">
-        <h2 class="section__title section__title--work">Meu Trabalho</h2>
-        <p class="section__subtitle section__subtitle--work">Informações adicionais sobre meu trabalho</p>
+        <h2 class="section__title section__title--work">Minhas Experiências</h2>
+
         <div class="portfolio">
             <a class="portfolio__item">
-                <img src="img/example1.jpg" alt="" class="portfolio__img">
+                <div class="grid_item section__subtitle--work">
+                    <small>Empresa:</small>
+                    <h2>Embare Industrias Alimenticias S.A.</h2>
+                    <small>Duração: fev de 2018 - mai de 2021</small>
+                    <h2>3 anos e 4 meses</h1>
+                </div>
+
+                <div>
+                    <p class="grid_item content">
+                        Alocação em tempo integral na área de desenvolvimento da empresa Embare
+                    </p>
+                    <p class="grid_item content">Tendo como competências:</p>
+                    <p class="grid_item content">- Desenvolvimento de novos fluxos e funcionalidades no sistema BPM
+                        Lecom
+                    </p>
+                    <p class="grid_item content">- Utilização de metodologias ágeis como Scrum e Kanban no apoio ao
+                        desenvolvimento</p>
+                    <p class="grid_item content">- Banco de dados relacional (Mysql e SQL Server)</p>
+                    <p class="grid_item content">- Integrações Rest</p>
+                    <p class="grid_item content">- Linguagens PHP, JAVA e Javascript, bem como utilização de CSS e
+                        HTML</p>
+                </div>
             </a>
 
             <a class="portfolio__item">
-                <img src="img/example2.jpg" alt="" class="portfolio__img">
-            </a>
+                <div class="grid_item section__subtitle--work">
+                    <small>Empresa:</small>
+                    <h2>SM2 Consultoria Especializada</h2>
+                    <small>Duração: set de 2021 - ago de 2022</small>
+                    <h2>1 ano</h1>
+                </div>
 
-            <a class="portfolio__item">
-                <img src="img/example3.jpg" alt="" class="portfolio__img">
-            </a>
-
-            <a class="portfolio__item">
-                <img src="img/example4.jpg" alt="" class="portfolio__img">
-            </a>
-
-            <a class="portfolio__item">
-                <img src="img/example5.jpg" alt="" class="portfolio__img">
-            </a>
-
-            <a class="portfolio__item">
-                <img src="img/example6.jpg" alt="" class="portfolio__img">
+                <div>
+                    <p class="grid_item content">
+                        Alocação em tempo integral no Grupo Hermes Pardini
+                    </p>
+                    <p class="grid_item content">Tendo como competências:</p>
+                    <p class="grid_item content">- Desenvolvimento de novos fluxos e funcionalidades no sistema BPM
+                        Lecom
+                    </p>
+                    <p class="grid_item content">- Utilização de metodologias ágeis como Scrum e Kanban no apoio ao
+                        desenvolvimento</p>
+                    <p class="grid_item content">- Banco de dados relacional (Mysql e SQL Server)</p>
+                    <p class="grid_item content">- Integrações Rest e SOAP</p>
+                    <p class="grid_item content">- Linguagens PHP, JAVA e Javascript, bem como utilização de CSS e
+                        HTML</p>
+                    <p class="grid_item content">- Controle de versão com GIT</p>
+                </div>
             </a>
         </div>
     </section>
@@ -108,13 +197,21 @@
         <ul class="social-list">
 
             <li class="social-list__item">
+                <a class="social-list__link" href="https://api.whatsapp.com/send?phone=5537999072693" target="_blank">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+            </li>
+
+            <li class="social-list__item">
                 <a class="social-list__link" href="https://github.com/joaomirandalp" target="_blank">
                     <i class="fab fa-github"></i>
                 </a>
             </li>
 
             <li class="social-list__item">
-                <a class="social-list__link" href="https://br.linkedin.com/in/jo%C3%A3o-pedro-souza-miranda-6b5295b9?trk=people-guest_people_search-card" target="_blank">
+                <a class="social-list__link"
+                    href="https://br.linkedin.com/in/jo%C3%A3o-pedro-souza-miranda-6b5295b9?trk=people-guest_people_search-card"
+                    target="_blank">
                     <i class="fab fa-linkedin"></i>
                 </a>
             </li>
@@ -122,4 +219,5 @@
     </footer>
     <script src="js/index.js"></script>
 </body>
+
 </html>
